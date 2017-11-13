@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Registeration page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+.navv{ float:right; margin-right:50px;}
+</style>
+</head>
+<body>
+<div class="container-fluid text-center" style="color:white; background-color:rgb(51, 122, 183);">
+  <h2>My Spotter ...</h2>
+  <p>New way to Remind your friends/family Birthdays!</p>
+      <div class="btn-group navv">
+          <a href="index.html"><input class="btn btn-primary" type="button" value="Home"></a>
+           <a href="index.html"><input class="btn btn-primary" type="button" value="Login"></a>
+           <a href="register.html"><input class="btn btn-primary" type="button" value="SignUp"></a>
+       
+  </div> 
+</div>
+<div class="container" style="clear:both; margin:20px">
+
+  <div class="row">
+    <div class="col-sm-8">
+      <h3></h3>
+      <img class="img-responsive" src="img/img3.jpg">
+    </div>
+  <div class="col-sm-4">
+  <form action="Register" method="post">
+    <div class="panel panel-primary">
+          <div class="panel panel-heading"><h3>Registration</h3></div>
+         <div class="panel-body"><label>Enter username: </label><input type="text" name="t1" class="form-control">
+        </div> 
+         <div class="panel-body"><label>create password: </label><input type="password" name="p1" class="form-control">
+        </div>
+         <div class="panel-body"><label>Retype password: </label><input type="password" name="p2" class="form-control">
+        </div>
+        <div class="panel-body"><label>Email: </label><input type="email" name="email" class="form-control">
+        </div>
+        
+        <div class="panel-body"><label>Your DOB: </label><input type="date" name="dob" class="form-control">
+        </div>
+         <div class="panel-body"><input class="btn btn-primary" type="submit" name="loginbt" value="Register" class="form-control">
+     </div>
+      </div>
+      </form>
+  </div>
+  </div>
+</div>
+
+<div class="panel-footer" style="padding:20px; text-align:center;">Panel Footer Copyright@2017</div>
+
+</body>
+</html>

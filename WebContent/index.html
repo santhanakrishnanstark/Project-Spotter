@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+.navv{ float:right; margin-right:50px;}
+</style>
+</head>
+<body>
+<div class="container-fluid text-center" style=" color:white; background-color:rgb(51, 122, 183);">
+  <h1 class="display-1">My Spotter ...</h1>
+  <p class="lead">New way to Remind your friends/family Birthdays!</p>
+  <div class="btn-group navv">
+           <a href="index.html"><input class="btn btn-primary" type="button" value="Home" ></a>
+           <a href="index.html"><input class="btn btn-primary" type="button" value="Login" ></a>
+           <a href="register.html"><input class="btn btn-primary" type="button" value="SignUp"></a>
+  </div> 
+</div>
+
+<div class="container" style="margin-top: 45px;">
+  <div class="row">
+    <div class="col-sm-8">
+      <h3></h3>
+      <img class="img-responsive" src="img/img3.jpg">
+    </div>
+  <div class="col-sm-4"> 
+      <form action="Login" method="post">
+          <div class="panel panel-primary">
+             <div class="panel panel-heading"><h3>Login Form</h3></div>
+                <div class="panel-body"><label>Enter username: </label><input type="text" name="loginname" class="form-control" data-toggle="tooltip" data-placement="right" title="Enter username" required>
+                </div> 
+                <div class="panel-body"><label>Enter password: </label><input type="password" name="loginpass" class="form-control" data-toggle="tooltip" data-placement="right" title="Enter password" required>
+                </div>
+                <div class="panel-body"><input class="btn btn-primary" type="submit" name="loginbt" value="Login" class="form-control"></div>
+            </div>
+         </form>
+     </div>
+  </div>
+  </div>
+
+
+<div class="panel-footer" style="padding:20px; text-align:center;">Panel Footer Copyright@2017</div>
+
+</body>
+</html>
